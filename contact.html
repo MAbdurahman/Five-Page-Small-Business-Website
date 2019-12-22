@@ -1,0 +1,236 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contact - Small Business Website</title>
+  </head>
+
+  <body>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+  </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Small business</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="team.html" class="nav-link">Team</a>
+              </li>
+              <li class="nav-item active">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div class="dropdown">
+              <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownLanguage"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Change language:</button>
+              <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                <a href="#" class="dropdown-item">English</a>
+                <a href="#" class="dropdown-item">French</a>
+                <a href="#" class="dropdown-item">Spanish</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container my-5 my-sm-5 py-4">
+        <h2 class="text-center mb-sm-4">Contact Us</h2>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h4>Address:</h4>
+            <address>
+              <strong>Company Name</strong><br>
+              1234 Name Street<br>
+              city, state ZIP code<br>
+              <i class="fa fa-fw fa-phone" aria-hidden="true"></i> <a href="tel:+1234567890">(123) 456-7890</a><br>
+              <i class="fas fa-fw fa-envelope-open-text" aria-hidden="true"></i> <a
+                href="mailto:info@domain.com">info@domain.com</a>
+            </address>
+
+          </div>
+          <div class="col-12 col-md-6">
+            <h4>Opening Hours:</h4>
+            <p>
+              Monday-Thursday: <span class="float-right">10 am - &nbsp;6 pm</span><br>
+              Friday-Saturday: <span class="float-right">10 am - 10 pm</span><br>
+              Sunday: <span class="float-right">10 am - &nbsp;8 pm</span><br>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-3">
+            <h4>Send Us A Message:</h4>
+            <form>
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                      </div>
+                      <input type="text" id="name" class="form-control" name="name" placeholder="Name" required="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                      </div>
+                      <input type="email" id="email" class="form-control" name="email" placeholder="example@email.com"
+                        required="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-sm-6">
+                  <div class="form-group">
+                    <label for="telephone">Telephone</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                      </div>
+                      <input type="tel" id="telephone" class="form-control" name="telephone" placeholder="012-345-6789">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="form-group">
+                    <label for="department">Department:</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-building" aria-hidden="true"></i></span>
+                      </div>
+                      <select id="department" class="form-control" name="department"
+                        aria-describedby="department-help-block" required="">
+                        <option value="">- select here -</option>
+                        <option value="business">Service</option>
+                        <option value="sale">Sales</option>
+                        <option value="support">Support</option>
+                      </select>
+                    </div>
+                    <small id="department-help-block" class="form-text">Select the department for your
+                      message.</small>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="textarea">Message:</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-pencil-alt" aria-hidden="true"></i></span>
+                  </div>
+                  <textarea id="textarea" class="form-control" rows="5" placeholder="Write your message here..."
+                    required=""></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="reset" class="btn btn-secondary">Reset</button>
+            </form>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h4>Where To Find Us:</h4>
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175453420647!2d-73.98784413479707!3d40.748440379327945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9aeb1c6b5%3A0x35b1cfbc89a6097f!2sEmpire+State+Building%2C+350+5th+Ave%2C+New+York%2C+NY+10118%2C+USA!5e0!3m2!1sda!2sdk!4v1491841211721"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="small bg-light">
+        <div class="container py-3 py-sm-5">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h6>Information</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">Legal Information</a></li>
+                <li><a href="#">Job Opportunities</a></li>
+                <li><a href="#">Frequently Asked Questions</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h6>Follow Us</h6>
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fab fa-fw fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube</a></li>
+                <li><a href="#"><i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h6>Our Location:</h6>
+              <address>
+                <strong>Company Name</strong><br>
+                1234 Name Street, suite#456<br>
+                city, state ZIP Code<br>
+                <i class="fa fa-fw fa-phone" aria-hidden="true"></i> <a href="tel:+1234567890">(123)
+                  456-7890</a><br>
+                <i class="far fa-fw fa-envelope" aria-hidden="true"></i> <a
+                  href="mailto:info@domain.com">info@domain.com</a>
+              </address>
+            </div>
+          </div>
+          <ul class="list-inline mt-2 mb-0 text-center">
+            <li class="list-inline-item">&copy; 2019 Company Name</li>
+            <li class="list-inline-item">All rights reserved.</li>
+          </ul>
+        </div>
+      </footer>
+
+    <!--jquery-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--font awesome-->
+    <script src="js/all.min.js"></script>
+    <!--main js-->
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
