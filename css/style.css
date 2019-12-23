@@ -209,3 +209,9 @@ h6 {
   -o-transition: all 0.3s 1s ease-out;
   transition: all 0.3s 1s ease-out;
 }
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .mb-special {
+    margin-top: 1.25rem;
+  }
+}
